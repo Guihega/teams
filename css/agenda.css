@@ -1,0 +1,222 @@
+/*html {
+  background-image: url("../img/fondo.svg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}*/
+
+html {
+  background-color: #fff;
+}
+
+/*body {
+  background-color: #fff;
+}*/
+
+.header {
+  background-image: url("../img/fondo.svg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.logo{
+  margin: 0 auto;
+}
+
+.titulo{
+  align-items: center;
+  display: flex;
+}
+
+.lblTitulo {
+  margin: 0 auto;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: #fff;
+}
+
+
+.lblUserName, .txtParrafo, .lblCrear, .lblSelecciona{
+  width: 100%;
+}
+
+.inputGroup {
+  flex-grow: 0;
+  border-radius: 8px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+
+.divBtn{
+  padding: unset;
+}
+
+.lblUserName{
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: #62856d;
+}
+
+.txtParrafo{
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: #62856d;
+}
+
+.lblEtiquetas{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: #62856d;
+}
+
+.lblSubtitulo{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: #62856d;
+}
+
+.lblTitulo{
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: #62856d;
+}
+
+.btn-cancelar{
+  border-radius: 4px;
+  background-color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.06;
+  letter-spacing: normal;
+  text-align: left;
+  color: #62856d;
+  border-color: #62856d;
+}
+
+.btn-cancelar:hover{
+  border-radius: 4px;
+  background-color: #62856d;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn-creargpo{
+  border-radius: 4px;
+  background-color: #62856d;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.06;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.btn-creargpo:hover{
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #62856d;
+}
+
+
+.divBottom{
+  position: relative;
+}
+
+.imgBottom{
+  position: absolute;
+  bottom: 0;
+}
+
+/*Responvive*/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+  .logo, .lblAgenda {
+    margin: 0 auto;
+  }
+
+  .form-signin {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .logo {
+    margin: 25px 25px 25px 25px;
+    width: 75%;
+  }
+
+/*  .lblAgenda {
+    margin: 40px 20px 40px 20px;
+  }*/
+
+  .lblAgenda {
+    font-size: 16px;
+  }
+
+  .form-signin {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  .logo {
+    margin: 25px 50px 25px 50px;
+  }
+
+/*  .lblAgenda {
+    margin: 80px 40px 80px 40px;
+  }*/
+}
+
+@media only screen and (min-width: 1201px){
+  .form-signin{
+    width: 75%;
+  }
+}

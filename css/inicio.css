@@ -1,0 +1,392 @@
+/*html {
+  background-image: url("../img/fondo.svg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+body {
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: transparent;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.logo{
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.textAgenda{
+  align-items: center;
+  display: flex;
+}
+
+.lblAgenda {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: #fff;
+}
+
+.form-signin{
+  width: 100%;
+  flex-grow: 0;
+  margin: 0 auto;
+  padding: 30px 20px 20px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+
+.lblSpan {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: #62856d;
+}
+
+.txtUserName, .txtPassword{
+  flex-grow: 0;
+  padding: 8px 103px 8px 13px;
+  border-radius: 4px;
+  border:none;
+  background-color: transparent;
+  height: calc(2.5rem + 2px) !important;
+  line-height: 1.25 !important;
+  padding: 0.5rem 0.5rem !important;
+}
+
+.lblUserName, .lblPassword{
+  flex-grow: 0;
+  margin:0 30px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: #62856d;
+}
+
+.form-field{
+  flex-grow: 0;
+  border-radius: 8px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  border: solid 0.5px #62856d;
+  background-color: #f6f6ff;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.showHidePass{
+  width: 20px;
+  height: 20px;
+  flex-grow: 0;
+  margin: 0 10px 0px 0px;
+  object-fit: contain;
+}
+
+.imgInputLogin{
+  width: 20px;
+  height: 20px;
+  flex-grow: 0;
+  margin: 0 0 0 10px;
+  object-fit: contain;
+}
+
+.olvidePass {
+  width: 100%;
+  flex-grow: 0;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: right;
+  color: #62856d;
+}
+
+.linkOlvidePass{
+  text-decoration: none;
+}
+
+.bntEntrar {
+  flex-grow: 0;
+  border-radius: 4px;
+  border: solid 0.5px #fff;
+  background-color: #62856d;
+}
+
+.bntEntrar:hover {
+  color: #62856d;
+  background-color: #fff;
+  border-color: #62856d;
+}
+
+.avisoPrivacidad span{ 
+  flex-grow: 0;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #62856d;
+}
+
+.avisoPrivacidad a{ 
+  text-decoration-color: #62856d;
+}
+
+.form-floating>.form-control-plaintext~label, 
+.form-floating>.form-control:focus~label, 
+.form-floating>.form-control:not(:placeholder-shown)~label, 
+.form-floating>.form-select~label {
+  display: none;
+}
+
+/*Responvive*/
+/*
+@media only screen and (min-width: 320px) and (max-width: 480px){
+  .logo, .lblAgenda {
+    margin: 0 auto;
+  }
+
+  .form-signin {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .logo {
+    margin: 0 auto;
+    width: 75%;
+  }
+
+  .lblAgenda {
+    font-size: 16px;
+  }
+
+  .form-signin {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  .logo {
+    margin: 0 auto;
+  }
+
+@media only screen and (min-width: 1201px){
+  .form-signin{
+    width: 75%;
+  }
+}
+*/
+
+.lblSd{
+  /*font-family: Montserrat;*/
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: #000;
+}
+
+.lblTitulo{
+  /*font-family: Calibri;*/
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: #325b48;
+}
+
+.divider {
+/*  width: 1341px;
+  margin: 39.1px 50px 95px 49px;*/
+
+  height: 1px;
+  background-color: #a3a3a3;
+}
+
+.lblUserName, .lblPassword{
+  flex-grow: 0;
+  margin: 0 auto;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: #62856d;
+  width: 100%;
+  text-align: center;
+  height: unset !important;
+  line-height: unset !important;
+}
+
+
+.greenRectangle {
+  height: 50px;
+  background-color: #124e2e;
+}
+
+.rectangleGreen{
+  height: 50px;
+  background-color: #a6830c;
+}
+
+
+.txtUserName, .txtPassword{
+  height: 36px;
+  flex-grow: 0;
+  border-radius: 4px;
+  border: solid 0.5px #62856d;
+  background-color: #f6f6ff;
+}
+
+.form-floating>.form-control-plaintext~label, .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
+  transform: scale(.85) translateY(-0.5rem) translateX(1rem) !important;
+  text-align: left;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #62856d;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(98 133 109 / 25%);
+  /*rgb(98, 133, 109)*/
+}
+
+.btnEntrar{
+  flex-grow: 0;
+  border-radius: 4px;
+  border: solid 0.5px #fff;
+  background-color: #4b946c;
+}
+
+.izquierda{
+  text-align: left;
+}
+
+.derecha{
+  text-align: right;
+}
+
+.tblHead,
+.tdRow{
+  font-size: 12px;
+}
+
+.headRow{
+  background-color: #4b946e;
+  color: #ffffff;
+}
+
+.bd-example-modal-lg .modal-dialog{
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+}
+
+.bd-example-modal-lg .modal-dialog .modal-content{
+  background-color: transparent;
+  border: none;
+}
+
+.fotoProfesor{
+  width: 5%;
+  border-radius: 50%;
+}
+
+.fmrBtn{
+  display: inline-flex;;
+}
+
+.tdRow{
+  vertical-align: middle;
+}
+
+#cargando {
+  background: #2a2a2a;
+  color: #4b946e;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 5000;
+  top: 0;
+  left: 0;
+  float: left;
+  text-align: center;
+  padding-top: 25%;
+  opacity: .80;
+}
+
+.spinner {
+  margin: 0 auto;
+  height: 64px;
+  width: 64px;
+  animation: rotate 0.8s infinite linear;
+  border: 10px solid  #4b946e;
+  border-right-color: transparent;
+  border-radius: 50%;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.swal-button.btn-success:hover {
+  color: #fff;
+  background-color: #157347 !important;
+  border-color: #146c43 !important;
+}
+
+.swal-icon--warning {
+  border-color: #198754 !important;
+}
+
+.swal-icon--warning__body, .swal-icon--warning__dot {
+  background-color: #198754 !important;
+}
